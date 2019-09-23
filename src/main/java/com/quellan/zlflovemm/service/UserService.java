@@ -11,4 +11,10 @@ public interface UserService {
     int addUser(String userName,String password,String email);
 
     int deleteUser(int id);
+
+    List<UserEntry> findUserList2();
+
+    int addUser2(String userName,String password,String email);
+
+    int deleteUser2(int id);
 }
