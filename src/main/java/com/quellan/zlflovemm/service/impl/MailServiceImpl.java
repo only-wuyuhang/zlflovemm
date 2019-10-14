@@ -33,7 +33,7 @@ public class MailServiceImpl implements MailService{
     private String mailFrom;
 
     @Override
-    public void sendSimpleMail(String mailTo) {
+    public boolean sendSimpleMail(String mailTo) {
         SimpleMailMessage message=new SimpleMailMessage();
         message.setFrom(mailFrom);
         message.setTo(mailTo);
@@ -41,10 +41,11 @@ public class MailServiceImpl implements MailService{
         message.setText("hello world");
         mailSender.send(message);
         log.info("邮件已经发送");
+        return true;
     }
 
     @Override
-    public void sendMail(String mailTo) {
+    public boolean sendMail(String mailTo) {
         MimeMessage message=mailSender.createMimeMessage();
         MimeMessageHelper helper = null;
         try {
@@ -58,9 +59,11 @@ public class MailServiceImpl implements MailService{
             helper.addAttachment(fileName, file);
             mailSender.send(message);
             log.info("邮件已经发送");
+            return true;
         } catch (MessagingException e) {
             log.error("{}",e);
         }
+        return false;
     }
 
 

@@ -13,6 +13,9 @@
 
 [五、springboot 简单优雅是实现邮件服务](https://blog.csdn.net/qq_27790011/article/details/102507677)
 
+[六、springboot 简单优雅是实现短信服务](https://blog.csdn.net/qq_27790011/article/details/102546022)
+
+
 
 
 

@@ -8,7 +8,7 @@ package com.quellan.zlflovemm.service;
  * @Version 1.0
  */
 public interface MailService {
-    void sendSimpleMail(String mailTo);
+    boolean sendSimpleMail(String mailTo);
 
-    void sendMail(String mailTo);
+    boolean sendMail(String mailTo);
 }
