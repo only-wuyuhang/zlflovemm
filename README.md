@@ -8,3 +8,11 @@
 [二、springBoot 整合 mybatis 项目实战](https://blog.csdn.net/qq_27790011/article/details/101038355)
 
 [三、SpringBoot 整合mybatis 多数据源以及分库分表](https://blog.csdn.net/qq_27790011/article/details/101113826)
+
+[四、springBoot 优雅的创建定时任务](https://blog.csdn.net/qq_27790011/article/details/101450346)
+
+[五、springboot 简单优雅是实现邮件服务](https://blog.csdn.net/qq_27790011/article/details/102507677)
+
+
+
+

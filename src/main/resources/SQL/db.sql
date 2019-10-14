@@ -17,3 +17,13 @@ CREATE TABLE `sys_user` (
 /*Data for the table `sys_user` */
 
 INSERT  INTO `sys_user`(`id`,`username`,`password`,`email`,`role_code`,`role_name`,`gmt_create`,`gmt_update`,`nickname`,`user_create`) VALUES (1,'admin','123456','345849402@qq.com','admin','管理员','2019-03-21 14:30:57','2019-03-21 14:30:57','admin',1);
+
+
+
+
+DROP TABLE IF EXISTS `scheduled`;
+CREATE TABLE `scheduled`  (
+  `cron_id` varchar(30) NOT NULL PRIMARY KEY,
+  `cron` varchar(30) NOT NULL
+);
+INSERT INTO `cron` VALUES ('1', '0/6 * * * * ?');
