@@ -5,6 +5,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import java.io.File;
+
 /**
  * @ClassName AutoTask
  * @Description DOTO
@@ -25,4 +27,7 @@ public class AutoTask {
     private void process2(){
         log.info("222 ");
     }
+
+
+
 }

@@ -9,6 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class ZlflovemmApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(ZlflovemmApplication.class, args);
     }
 
