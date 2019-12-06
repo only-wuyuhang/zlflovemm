@@ -1,5 +1,7 @@
 package com.quellan.zlflovemm.controller.ftp;
 
+import org.apache.commons.net.ftp.FTPClient;
+
 /**
  * @ClassName FtpController
  * @Description DOTO
